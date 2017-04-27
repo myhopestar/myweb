@@ -1,0 +1,30 @@
+body {
+	margin:0;
+	padding:0
+}
+#wrap {
+	position:relative
+}
+.box {
+	border:#CCCCCC 1px solid;
+	padding:5px;
+	border-radius:5px;
+	box-shadow:0 0 6px #CCCCCC;
+	float:left;
+	margin:5px;
+	position:relative;
+	overflow:hidden
+}
+.box img {
+	width:200px;
+	transform:scale(1,1);
+	-ms-transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+	transition:all 1s;
+	-webkit-transition:all 1s
+}
+.box img:hover {
+	transform:scale(1.2,1.2);
+	-ms-transform:scale(1.2,1.2);
+	-webkit-transform:scale(1.2,1.2)
+}
